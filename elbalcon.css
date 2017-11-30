@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+address {
+  margin: 1em;
+}
+
+body {
+  background: url("bg.jpeg") repeat-y right;
+}
+
+h1 {
+  background: url("white50.png");
+  color: #41648F;
+  font-size: 80px;
+  line-height: 0.8em;
+  padding: 0.2em 0 0 0;
+  text-align: left;
+  width: 600px;
+}
+
+h2 {
+  background: #A0C8FF;
+  padding: 0.2em 0.7em 0.1em 0.7em;
+}
+
+#header {
+  background: url("h1.jpeg") no-repeat center;
+  height: 12em;
+}
+
+html {
+  background: #ccc;
+}
+
+div.balcon {
+  border: 1px dotted;
+  margin: 1em;
+}
+
+div.balcon h2 {
+  letter-spacing: 0.1em;
+  font-family: "Verdana", sans-serif;
+  font-weight: normal ;
+  margin-bottom: 0.5em;
+}
+
+div.picture {
+  background: white;
+  border: 1pt dotted;
+  float: right;
+  margin: 0.5em -5em 0.5em 0.5em;
+}
+
+div.picture img {
+  margin: 10px;
+}
+
+div.box {
+  background: url("white50.png");
+  border: 1px solid #222;
+  clear: right;
+  float: right;
+  margin: 0.5em -10em 0.5em 0.5em;
+  padding: 0.2em;
+}
+
+div.quote p {
+  letter-spacing: 0.1em;
+  font-family: sans-serif;
+}
+
+#main {
+  background: white;
+  border: 1px solid #aaa;
+  margin: 1em auto 1em 2em;
+  width: 600px;
+}
+
+p {
+  font-family: "Bitstream Vera Serif" serif;
+  margin: 1em;
+}
+
+ul {
+  margin: 0.5em;
+}
+
+ul li:before {
+  content: "\266B";
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0 0 0 1em;
+}
